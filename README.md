@@ -25,8 +25,6 @@
     <!-- <a href="https://github.com/soumyajit4419/Portfolio/issues">Request Feature</a> -->
 </h3>
 
-## TL;DR
-
 You can fork this repo to modify and make changes of your own. Thanks!
 
 ## Built With
