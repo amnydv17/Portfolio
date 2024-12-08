@@ -6,7 +6,7 @@ import logo from "../Assets/logo_aman.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
-// import { ImBlog } from "react-icons/im";
+import { ImBlog } from "react-icons/im";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -92,15 +92,15 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            {/* <Nav.Item>
+            <Nav.Item>
               <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
+                href="https://my-blog-9l9m2r3an-amnydv17s-projects.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                <ImBlog style={{ marginBottom: "2px" }} /> My Blogs
               </Nav.Link>
-            </Nav.Item> */}
+            </Nav.Item>
 
             <Nav.Item className="github-btn">
               <Button
