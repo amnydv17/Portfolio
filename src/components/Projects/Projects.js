@@ -77,7 +77,7 @@ function Projects() {
           </Col>
 
           <h1 style={{ color: "white" }}>
-            Many more are comes...
+            Stay tuned for <strong className="purple">More... </strong>
         </h1>
         </Row>
       </Container>
