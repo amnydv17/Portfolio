@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import audio from "../../Assets/Projects/audio.jpg";
+import fitflow from "../../Assets/Projects/fitflow.png";
+import myblog from "../../Assets/Projects/myBlog.png";
+import brain from "../../Assets/Projects/brain.jpg";
+import note from "../../Assets/Projects/note.png";
 
 function Projects() {
   return (
@@ -23,70 +22,63 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={myblog}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="MyBlog"
+              description="MyBlog is a blog creation platform built with ReactJS, Appwrite, and Tailwind CSS. It offers secure login, signup, and logout features, along with a rich-text editor powered by TinyCloud for easy blog creation. The platform includes image uploading for thumbnails, seamless multi-page routing, and a modular design for scalability. Technologies used: ReactJS, Appwrite, JavaScript, Redux, TinyCloud, Tailwind CSS."
+              ghLink="https://github.com/amnydv17/MyBlog"
+              demoLink="https://my-blog-iota-tawny.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={note}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="NoteApp"
+              description="NoteApp is a note management web application built with ReactJS, JavaScript, and Tailwind CSS. It features functionality for creating, deleting, updating, searching, and sharing notes. LocalStorage is used for data persistence, ensuring fast and offline-ready performance. The app provides seamless routing for easy navigation to individual notes."
+              ghLink="https://github.com/amnydv17/NoteApp"
+              demoLink="https://note-app-khaki-rho.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={fitflow}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="FitFlow"
+              description="Fitflow is a comprehensive fitness tracking platform built using the MERN stack (MongoDB, Express.js, React.js, Node.js) and TypeScript. It features real-time updates and personalized dashboards for users to track their health and fitness progress. The platform provides an innovative solution for health and wellness tracking, offering a seamless and interactive user experience."
+              ghLink="https://github.com/amnydv17/Fitflow-Frontend"
+              // demoLink="https://"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={audio}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Audio AI"
+              description="Audio Analysis and Classification is a project that analyzes and processes over 100,000 audio samples to extract valuable insights and patterns. Using advanced audio classification techniques, it improved soundscape monitoring capabilities by 90%. The project employs Python, Librosa, TensorFlow, and CNN for deep learning, with additional tools like Numpy, Pandas, Matplotlib, and Streamlit for data visualization and deployment."
+              ghLink="https://github.com/amnydv17/Audio-Analysis-and-Classification"
+              // demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={brain}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Brain Tumor Detection"
+              description="Brain Tumor Detection is a deep learning-based computer vision project that uses the U-Net architecture for brain tumor segmentation. The model was trained on MRI scans from the BRATS2020 dataset, with preprocessing steps including skull stripping, intensity normalization, and resizing. The project achieved 96% accuracy and 84% Mean Union Overlap (MUO) in tumor segmentation. Training was optimized with data augmentation, batch normalization, and early stopping."
+              ghLink="https://github.com/amnydv17/UNET_Brain_Tumor_Detection"
+              //------Please include a demo link here 
             />
           </Col>
+
+          <h1 style={{ color: "white" }}>
+            Many more are comes...
+        </h1>
         </Row>
       </Container>
     </Container>
