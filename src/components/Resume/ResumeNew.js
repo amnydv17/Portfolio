@@ -49,7 +49,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={resumeUrl || "https://drive.google.com/file/d/1MFoif4hvLjZXztM4vjg3hp8whg_EVnZg/view"}
+            href={resumeUrl || "https://drive.google.com/file/d/1KgRVVS_N-osccz36ZiPK2rlDRQIaYkOE/view?usp=drive_link"}
             target="_blank"
             disabled={!resumeUrl}
             download
@@ -86,13 +86,6 @@ function ResumeNew() {
           />
         </Row>
 
-        {/* {resumeUrl && (
-          <Row style={{ justifyContent: "center", position: "relative", marginTop: "10px" }}>
-            <Button variant="danger" onClick={handleClearResume} style={{ maxWidth: "250px" }}>
-              Clear Resume
-            </Button>
-          </Row>
-        )} */}
       </Container>
     </div>
   );
